@@ -1,0 +1,6 @@
+[submodule "shadow-room-backend"]
+	path = shadow-room-backend
+	url = https://github.com/gurjotsingh1774/shadow-room-backend.git
+[submodule "shadow-room-frontend"]
+	path = shadow-room-frontend
+	url = https://github.com/gurjotsingh1774/shadow-room-frontend.git
