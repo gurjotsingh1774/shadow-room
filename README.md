@@ -330,6 +330,7 @@ Open `http://localhost:5173` in your browser to enter the Shadow Room.
 
 | Method | Endpoint | Auth | Description |
 | :--- | :--- | :---: | :--- |
+| `GET` | `/api/health` | Public | Node liveness and readiness health check probe |
 | `POST` | `/api/auth/register` | Public | Enrolls a new operative profile by presenting public identity and handshake keys |
 | `POST` | `/api/auth/challenge` | Public | Requests a high-entropy 32-byte authentication nonce (60s TTL) |
 | `POST` | `/api/auth/verify` | Public | Verifies the signed nonce and injects an authenticated HTTP session cookie |
